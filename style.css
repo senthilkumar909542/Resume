@@ -17,6 +17,12 @@
   --background-color-profile-pic: #9db2bf;
   --name-title-color: #9db2bf;
   --font-size-about-content: 1.3rem;
+
+  --dark-primary:#FE7240;
+  --dark-secondary: #FFC529;
+  --dark-dark-grey: #272D2F;
+  --dark-dark-white: #D7D7D7;
+
 }
 
 .container {
@@ -58,6 +64,8 @@
   background-color: var(--background-color-heading);
   z-index: 1;
 }
+
+
 
 .heading .logo,
 .heading-title > .title,
@@ -433,7 +441,7 @@
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  height: 40rem;
+  height: 45rem;
   overflow: hidden;
 }
 .experience > div {
